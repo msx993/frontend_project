@@ -2,36 +2,75 @@
   --font-family: "Roboto", sans-serif;
   --second-family: "Playfair Display", sans-serif;
   --third-family: "PT Serif", sans-serif;
---backround-color: #012D63;
+  --backround-color: #012d63;
   --main-backround-color: #021635;
-  --main-nav-color: #C7C7C7;
-  --main-text-color: #FFFFFF;
-  --my-button-color: #8E32C6;
-  
+  --main-nav-color: #c7c7c7;
+  --main-text-color: #ffffff;
+  --my-button-color: #8e32c6;
 }
 
-body{
+body {
   font-family: var(--font-family);
   color: var(--main-text-color);
   background-color: var(--main-backround-color);
 }
 
 html {
- scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
-
-.container{
-width: 1130px;
-padding:0 15px;
-margin-left: auto;
-margin-right: auto;
-outline: 1px solid red;
+.container {
+  width: 1130px;
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 1px solid red;
 }
 
-.header_list{
-display: flex;
-flex-direction: row;
-justify-content: space-between;
+.header {
+  padding: 15px 0;
+  background-color: var(--backround-color);
 }
 
+.header_flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header_list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: 300;
+  font-size: 24px;
+  color: var(--main-nav-color);
+  gap: 29px;
+  margin-right: 79px;
+}
+
+.header_logo {
+  margin-right: 152px;
+}
+
+.header_language {
+  display: flex;
+  gap: 8px;
+  font-weight: 300;
+  font-size: 24px;
+  color: var(--main-nav-color);
+}
+
+.current_link {
+  font-weight: 400;
+  color: var(--main-text-color);
+}
+
+.hero {
+  padding: 100px 0 183px;
+  height: 858px;
+  background-image: url("../img/background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
