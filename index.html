@@ -20,10 +20,14 @@
   <body>
     <header class="header">
       <div class="container header_flex">
-        <a claas="header_logo" href="./index.html"><img src="./img/logo.svg" alt="logo" /></a>
+        <a claas="header_logo" href="./index.html"
+          ><img src="./img/logo.svg" alt="logo"
+        /></a>
         <ul class="header_list">
           <li class="header_item">
-            <a class="header_link current_link" href="./index.html">Main page</a>
+            <a class="header_link current_link" href="./index.html"
+              >Main page</a
+            >
           </li>
           <li class="header_item">
             <a class="header_link" href="#benefits"></a>Benefits
@@ -41,9 +45,13 @@
             <a class="header_link" href="#order"></a>Order
           </li>
         </ul>
-        <ul class="header_language ">
+        <ul class="header_language">
           <li><a class="header_language_link" href="./index.html">ua</a></li>
-          <li><a class="header_language_link current_link" href="./index.html">eng</a></li>
+          <li>
+            <a class="header_language_link current_link" href="./index.html"
+              >eng</a
+            >
+          </li>
         </ul>
       </div>
     </header>
@@ -63,8 +71,8 @@
       </section>
       <section id="benefits">
         <div class="container">
-          <ul class="denefits_list">
-            <li class="Benefits_item">
+          <ul class="benefits_list">
+            <li class="benefits_item">
               <p>Premium Quality</p>
               <img src="./img/stars.svg" alt="stars" />
             </li>
@@ -117,6 +125,39 @@
               </div>
             </li>
           </ul>
+        </div>
+      </section>
+      <section id="order">
+        <div class="container">
+          <form>
+            <label for="email">
+              <input
+                class="order-email"
+                placeholder="Write your email"
+                type="text"
+              />
+              <button class="order-email-button" type="submit">Confirm</button>
+            </label>
+            <label for="country">
+              <input
+                id="contry"
+                class="order-input"
+                placeholder="Your Country"
+                type="text"
+              />
+            </label>
+            <label for="city">
+              <input class="order-input" placeholder="Your City" type="text" />
+            </label>
+            <label for="adress">
+              <input
+                class="order-input"
+                placeholder="Your Adress"
+                type="text"
+              />
+            </label>
+            <button type="submit">Order my Nike</button>
+          </form>
         </div>
       </section>
     </main>

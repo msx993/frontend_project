@@ -107,3 +107,27 @@ color: var(--main-text-color);
 padding: 20px 61px;
 border-radius: 10px;
 }
+
+
+
+#benefits{
+padding: 105px 0;
+}
+
+
+.reviews{
+
+    padding: 25px 0 114px;
+}
+
+
+.order{
+
+    padding: 21px 0 37px;
+}
+
+
+.footer{
+
+    padding:45px 0 50px ;
+}
