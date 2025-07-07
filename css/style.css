@@ -1,0 +1,58 @@
+:root {
+  --font-family: "Roboto", sans-serif;
+  --second-family: "Playfair Display", sans-serif;
+  --third-family: "PT Serif", sans-serif;
+--backround-color: #012D63;
+  --main-backround-color: #021635;
+  --main-nav-color: #C7C7C7;
+  --main-text-color: #FFFFFF;
+  --my-button-color: #8E32C6;
+  
+}
+
+body{
+  font-family: var(--font-family);
+  color: var(--main-text-color);
+  background-color: var(--main-backround-color);
+}
+
+html {
+ scroll-behavior: smooth;
+}
+
+
+.header_ul::before{
+
+
+
+}
+
+.header_ul{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.li_Main_page:hover{
+    color: white;
+}
+
+.li-Benefits:hover{
+    color: white;
+}
+
+.li-Advantages:hover{
+    color: white;
+}
+
+.li-Review:hover{
+    color: white;
+}
+
+.li-Contacts:hover{
+    color: white;
+}
+
+.li-Order:hover{
+    color: white;
+}
