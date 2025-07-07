@@ -7,39 +7,45 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Playfair+Display&family=Roboto:wght@100..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header class="header">
-      <ul class="header_ul">
-        <li class="li_Main_page"><a href="./index.html">Main page</a></li>
-        <li class="li-Benefits"><a href="#benefits"></a>Benefits</li>
-        <li class="li-Advantages"><a href="#advantages"></a>Advantages</li>
-        <li class="li-Review"><a href="#reviews"></a>Reviews</li>
-        <li class="li-Contacts"><a href="#footer"></a>Contacts</li>
-        <li class="li-Order"><a href="#order"></a>Order</li>
-      </ul>
-      <ul>
-        <li><a href="./index.html">ua</a></li>
-        <li><a href="./index.html">eng</a></li>
-      </ul>
+      <div class="container">
+        <a href="./index.html"><img src="./img/logo.svg" alt="logo" /></a>
+        <ul class="header_list">
+          <li class="header_item">
+            <a class="header_link" href="./index.html">Main page</a>
+          </li>
+          <li class="header_item">
+            <a class="header_link" href="#benefits"></a>Benefits
+          </li>
+          <li class="header_item">
+            <a class="header_link" href="#advantages"></a>Advantages
+          </li>
+          <li class="header_item">
+            <a class="header_link" href="#reviews"></a>Reviews
+          </li>
+          <li class="header_item">
+            <a class="header_link" href="#footer"></a>Contacts
+          </li>
+          <li class="header_item">
+            <a class="header_link" href="#order"></a>Order
+          </li>
+        </ul>
+        <ul class="header_language">
+          <li><a class="header_language_link" href="./index.html">ua</a></li>
+          <li><a class="header_language_link" href="./index.html">eng</a></li>
+        </ul>
+      </div>
     </header>
     <main>
       <section class="hero">
@@ -56,59 +62,62 @@
         </div>
       </section>
       <section id="benefits">
-        <ul class="Benefits_list">
-          <li class="Benefits_item">
-            <p>Premium Quality</p>
-            <img src="./img/stars.svg" alt="" />
-          </li>
-          <li class="Benefits_item">
-            <img src="./img/paint.svg" alt="" />
-            <p>Indelible paint</p>
-          </li>
-          <li class="Benefits_item">
-            <p>Fast shipping</p>
-            <img src="./img/delivery.svg" alt="" />
-          </li>
-        </ul>
+        <div class="container">
+          <ul class="denefits_list">
+            <li class="Benefits_item">
+              <p>Premium Quality</p>
+              <img src="./img/stars.svg" alt="stars" />
+            </li>
+            <li class="benefits_item">
+              <img src="./img/paint.svg" alt="paint" />
+              <p>Indelible paint</p>
+            </li>
+            <li class="Benefits_item">
+              <p>Fast shipping</p>
+              <img src="./img/delivery.svg" alt="delivery" />
+            </li>
+          </ul>
+        </div>
       </section>
       <section id="reviews" class="reviews">
-        <h2>Reviews</h2>
-        <ul class="reviews_list">
-          <li class="reviews_item">
-            <p>
-              Sneakers are very<br />
-              comfortable and well<br />
-              painted, nothing has<br />
-              worn off in a year.
-            </p>
-            <p class="reviews_data">25.11</p>
-            <div class="reviews_author_wrapper"></div>
-            <p class="reviews_author">John Teylor</p>
-           <p class="reviews_from">With us from 2018</p>
-          </li>
-          <li class="reviews_item">
-            <p>
-              I'm very happy with<br />
-              this color scheme.<br />
-              They match all my<br />
-              clothes.
-            </p>
-            <p class="reviews_data">05.01</p>
-            <p class="revie_author">Elizabeth Garsia</p>
-            <p class="reviews_from">With us from 2020</p>
-          </li>
-          <li class="reviews_item">
-            <p>
-              Just right if you need<br />
-              to go to a party.<br />
-              I use them actively,<br />
-              the paint is super.<br />
-            </p>
-            <p class="reviews_data">18.06</p>
-            <p class="revie_author">Tom Maquare</p>
-            <p class="reviews_from">With us from 2019</p>
-          </li>
-        </ul>
+        <div class="container">
+          <h2>Reviews</h2>
+          <ul class="reviews_list">
+            <li class="reviews_item">
+              <p>
+                Sneakers are very comfortable and well painted, nothing has worn
+                off in a year.
+              </p>
+              <p class="reviews_data">25.11</p>
+              <div class="reviews_author_wrapper">
+                <p class="reviews_author">John Teylor</p>
+                <p class="reviews_from">With us from 2018</p>
+              </div>
+            </li>
+            <li class="reviews_item">
+              <p>
+                I'm very happy with this color scheme. They match all my
+                clothes.
+              </p>
+              <p class="reviews_data">05.01</p>
+              <div class="reviews_author_wrapper">
+                <p class="revie_author">Elizabeth Garsia</p>
+                <p class="reviews_from">With us from 2020</p>
+              </div>
+            </li>
+            <li class="reviews_item">
+              <p>
+                Just right if you need to go to a party. I use them actively,
+                the paint is super.
+              </p>
+              <p class="reviews_data">18.06</p>
+              <div class="reviews_author_wrapper">
+                <p class="revie_author">Tom Maquare</p>
+                <p class="reviews_from">With us from 2019</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <footer>

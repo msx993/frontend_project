@@ -21,38 +21,17 @@ html {
 }
 
 
-.header_ul::before{
-
-
-
+.container{
+width: 1130px;
+padding:0 15px;
+margin-left: auto;
+margin-right: auto;
+outline: 1px solid red;
 }
 
-.header_ul{
+.header_list{
 display: flex;
 flex-direction: row;
 justify-content: space-between;
 }
 
-.li_Main_page:hover{
-    color: white;
-}
-
-.li-Benefits:hover{
-    color: white;
-}
-
-.li-Advantages:hover{
-    color: white;
-}
-
-.li-Review:hover{
-    color: white;
-}
-
-.li-Contacts:hover{
-    color: white;
-}
-
-.li-Order:hover{
-    color: white;
-}
