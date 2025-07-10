@@ -89,6 +89,8 @@ html {
   font-family: var(--second-family);
   font-weight: 400;
   font-size: 72px;
+  margin-top: 20px;
+  margin-left: 12px;
   margin-bottom: 12px;
 }
 
@@ -111,19 +113,81 @@ border-radius: 10px;
 
 
 #benefits{
+ /* display: flex;
+  flex-direction: row;*/
 padding: 105px 0;
 }
 
+.benefits_list{
+   display: flex;
+  flex-direction: row;
+  outline: 3px solid #8e32c6;
+}
+
+.benefits_item{
+margin-left: 50px;
+
+
+}
+
+.benefits_item_2{
+  display: flex;
+  flex-direction: column-reverse;
+margin: 0 145px;
+border-right: 1px solid #ffffff;
+border-left: 1px solid #ffffff;
+}
+
+.benefits_item_3{
+margin-right: 50px;
+
+}
+
+/*.benefits_text{
+  display: flex;
+  text-align: center;
+}*/
 
 .reviews{
-
     padding: 25px 0 114px;
 }
+
+.reviews_item{
+  height: 292px;
+  width: 255px;
+  margin: 0 93px;
+}
+
+.reviews_data{
+  margin-bottom: 47px;
+}
+
+
+
+.reviews_list{
+  display: flex;
+  flex-direction: row;
+}
+
+
 
 
 .order{
 
     padding: 21px 0 37px;
+}
+
+.order_list{
+display: flex;
+
+}
+
+.order-email{
+  margin-bottom: 19px;
+}
+
+.order-input{
+  margin-bottom: 19px;
 }
 
 
