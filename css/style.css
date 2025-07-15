@@ -24,7 +24,7 @@ html {
   padding: 0 15px;
   margin-left: auto;
   margin-right: auto;
-  outline: 1px solid red;
+ /* outline: 1px solid red;*/
 }
 
 .header {
@@ -113,15 +113,18 @@ border-radius: 10px;
 
 
 #benefits{
- /* display: flex;
-  flex-direction: row;*/
+padding-top: 30px;
+padding-bottom: 30px;
 padding: 105px 0;
+background-image: url(../img/gadient.jpg);
+background-size: cover;
 }
 
 .benefits_list{
    display: flex;
   flex-direction: row;
-  outline: 3px solid #8e32c6;
+  border: 3px solid #8e32c6;
+  padding: 25px;
 }
 
 .benefits_item{
@@ -133,9 +136,9 @@ margin-left: 50px;
 .benefits_item_2{
   display: flex;
   flex-direction: column-reverse;
-margin: 0 145px;
-border-right: 1px solid #ffffff;
-border-left: 1px solid #ffffff;
+margin: 0 95px;
+border-right: 1px solid #c7c7c7;
+border-left: 1px solid #c7c7c7;
 }
 
 .benefits_item_3{
@@ -143,25 +146,87 @@ margin-right: 50px;
 
 }
 
-/*.benefits_text{
-  display: flex;
-  text-align: center;
-}*/
+
 
 .reviews{
     padding: 25px 0 114px;
+background-image: url(../img/gragient_2.jpg);
+background-size: cover;
 }
 
+.reviews_text{
+margin: 0 auto;
+margin-bottom: 25px;
+}
+
+
 .reviews_item{
-  height: 292px;
   width: 255px;
   margin: 0 93px;
+  border-radius: 10px;
+  padding: 49px 15px 30px;
+  background-image:
+  linear-gradient(135deg, #00E5E6 7%, #00A8F7 26%, #9A76F9 63%, #CC5EC2 100%);
+}
+
+
+
+.reviews_item_2{
+   width: 255px;
+  margin: 0 93px;
+  border-radius: 10px;
+  padding: 49px 15px 30px;
+ background-image:
+  linear-gradient(135deg, #FF68B4 0%, #FF45E1 26%, #CE3AFF 63%, #8961FF 100%);
+}
+  
+  
+
+
+
+
+
+
+
+.reviews_item_3{
+   width: 255px;
+  margin: 0 93px;
+  border-radius: 10px;
+  padding: 49px 15px 30px;
+ background-image:
+  linear-gradient(135deg, #FFE128 0%, #FF9B5C 30%, #FF9B5C 63%, #FF5489 100%);
+
+  
+
 }
 
 .reviews_data{
   margin-bottom: 47px;
 }
 
+
+
+
+.reviews_author::after{
+  content: "";
+  width: 31px;
+  height: 31px;
+background-image: url(../img/Ellipse\ 17.png);
+}
+
+.reviews_author_2::after{
+    content: "";
+  width: 31px;
+  height: 31px;
+background-image: url(../img/Ellipse\ 18.png);
+}
+
+.reviews_author_3::after{
+    content: "";
+  width: 31px;
+  height: 31px;
+background-image: url(../img/Ellipse\ 19.png);
+}
 
 
 .reviews_list{
@@ -173,25 +238,45 @@ margin-right: 50px;
 
 
 .order{
-
     padding: 21px 0 37px;
 }
 
 .order_list{
 display: flex;
+flex-direction: column;
+gap: 20px;
+align-items: center;
 
 }
 
-.order-email{
-  margin-bottom: 19px;
-}
 
 .order-input{
-  margin-bottom: 19px;
+border-radius: 10px;
+width: 580px;
+color: var(--main-nav-color);
 }
+
+.Order_button{
+  background-color: #8e32c6;
+ color: #ffffff;
+ padding: 20px 50px;
+ font-weight: 400;
+border-radius: 10px;
+}
+
+.order-email-button{
+color: #c7c7c7;
+}
+
 
 
 .footer{
 
     padding:45px 0 50px ;
+}
+
+
+.footer_item{
+  margin: 0
+  10px;
 }
