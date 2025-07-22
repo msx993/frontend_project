@@ -159,15 +159,14 @@ background-size: cover;
 
 
 #reviews{
-  display: flex;
-justify-content: flex-end;
+background-position: left bottom;
   background-image: url(../img/plants.png);
   background-repeat: no-repeat;
-background-size: 340px 380px;
+background-size: contain;
 }
 
 .reviews_text{
-margin: 0 auto;
+text-align: center;
 margin-bottom: 25px;
 }
 
