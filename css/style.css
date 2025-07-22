@@ -110,7 +110,9 @@ padding: 20px 61px;
 border-radius: 10px;
 }
 
-
+.hero_button:hover{
+  background-color: indigo;
+}
 
 #benefits{
 padding-top: 30px;
@@ -152,6 +154,14 @@ margin-right: 50px;
     padding: 25px 0 114px;
 background-image: url(../img/gragient_2.jpg);
 background-size: cover;
+
+}
+
+
+#reviews{
+  background-image: url(../img/plants.png);
+  background-repeat: no-repeat;
+background-size: 340px 380px;
 }
 
 .reviews_text{
@@ -168,7 +178,6 @@ margin-bottom: 25px;
   background-image:
   linear-gradient(135deg, #00E5E6 7%, #00A8F7 26%, #9A76F9 63%, #CC5EC2 100%);
 }
-
 
 
 .reviews_item_2{
@@ -239,11 +248,16 @@ background-image: url(../img/Ellipse\ 19.png);
 
 #order{
     padding: 21px 0 37px;
+    height: 510px;
     background-image: url("../img/gadient_3.jpg");
     background-size: cover;
     background-position: center;
 }
 
+.order_title{
+  text-align: center;
+  margin-bottom: 32px;
+}
 
 .order_list{
 display: flex;
@@ -253,18 +267,36 @@ align-items: center;
 }
  
 
-.order-email{
- margin-left: auto;
- margin-right: auto;
+.order_email{
+  display: flex;
+justify-content: space-between;
+  background-color: #fff;
   width: 690px;
   border-radius: 10px;
+  overflow: hidden;
+
+}
+
+.order_email input{
+  width: 433px;
+  border: none;
+  padding: 14px 30px;
+}
+
+.Order_btn{
+  width: 250px;
+  color: var(--main-nav-color);
+  border: none;
 }
 
 .order-input{
 border-radius: 10px;
 width: 580px;
-color: var(--main-nav-color);
+border: none;
+ padding: 14px 30px;  
 }
+
+
 
 .Order_button{
   background-color: #8e32c6;
@@ -272,6 +304,10 @@ color: var(--main-nav-color);
  padding: 20px 50px;
  font-weight: 400;
 border-radius: 10px;
+}
+
+.Order_button:hover{
+  background-color: indigo;
 }
 
 .order-email-button{

@@ -20,7 +20,7 @@
   <body>
     <header class="header">
       <div class="container header_flex">
-        <a claas="header_logo" href="./index.html"
+        <a class="header_logo" href="./index.html"
           ><img src="./img/logo.svg" alt="logo"
         /></a>
         <ul class="header_list">
@@ -87,7 +87,7 @@
           </ul>
         </div>
       </section>
-      <section id="reviews" class="reviews">
+      <section id="reviews" class="reviews reviews_img">
         <div class="container">
           <h2 class="reviews_text">Reviews</h2>
           <ul class="reviews_list">
@@ -129,15 +129,15 @@
       </section>
       <section id="order">
         <div class="container">
-          <h2>Order</h2>
+          <h2 class="order_title">Order</h2>
           <form class="order_list">
-            <label for="email">
+            <label class="order_email" for="email">
               <input
-                class="order-email"
+              id="order-email"
                 placeholder="Write your email"
                 type="text"
               />
-              <button class="order-input" type="submit">Confirm</button>
+              <button class="Order_btn" type="submit">Confirm</button>
             </label>
             <label for="country">
               <input
